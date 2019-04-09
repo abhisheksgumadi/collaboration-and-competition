@@ -31,14 +31,6 @@ ReplayBuffer
 
 - A fixed size buffer of size 1e5
 
-**Architecture of Neural Network for the Q-function**
-
-- input size = 37
-- output size = 4
-- 2 hidden layers and one output layer
-- each hidden layer has 64 hidden units and is followed by a `ReLU` activation layer
-- output layer is followed by a linear activation layer
-
 ## Plot of Rewards
 
 ```

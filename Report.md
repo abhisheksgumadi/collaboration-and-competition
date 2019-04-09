@@ -7,6 +7,26 @@ The information flow in a MADDPG algorithm is depeicted below (Screenshot from t
 
 ![MADDPG](./images/maddpg.png)
 
+## Parameters
+
+BUFFER_SIZE = int(1e5)  # replay buffer size
+BATCH_SIZE = 250         # minibatch size
+GAMMA = 0.99            # discount factor
+TAU = 1e-3              # for soft update of target parameters
+LR_ACTOR = 1e-4         # learning rate of the actor
+LR_CRITIC = 1e-3        # learning rate of the critic 2539
+WEIGHT_DECAY = 0        # L2 weight decay
+
+## Architecture
+
+Actor
+
+- 2 fully connected layers with 200 and 150 units each
+
+Critic
+
+- 2 fully connected layers with 200 and 150 units each
+
 - We initialize the replay memory `D` to some capacity `N`.
 - We initialize the local Q-Network (which should approximate the true action-value function Q) with random weights (using PyTorch default weight initialization for any module).
 - We copy those generated weights to the target Q-Network (which shall be updated every some defined number of iterations).

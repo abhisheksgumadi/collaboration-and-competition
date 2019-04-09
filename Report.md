@@ -17,7 +17,7 @@ The information flow in a MADDPG algorithm is depeicted below (Screenshot from t
 - LR_CRITIC = 1e-3        # learning rate of the critic 2539
 - WEIGHT_DECAY = 0        # L2 weight decay
 
-## Architecture
+## Architecture of each of the 2 Agents
 
 Actor
 

@@ -65,7 +65,7 @@ The plot of the average scores as training progresses is shown below
 
 ## Trained Models
 
-The ```agent1_checkpoint_actor.pth``` file represents the first agent actor
-The ```agent1_checkpoint_critic.pth``` file represents the first agent critic
-The ```agent2_checkpoint_actor.pth``` file represents the second agent actor
-The ```agent2_checkpoint_critic.pth``` file represents the second agent critic
+- The ```agent1_checkpoint_actor.pth``` file represents the first agent actor
+- The ```agent1_checkpoint_critic.pth``` file represents the first agent critic
+- The ```agent2_checkpoint_actor.pth``` file represents the second agent actor
+- The ```agent2_checkpoint_critic.pth``` file represents the second agent critic
